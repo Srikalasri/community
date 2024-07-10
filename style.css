@@ -1,0 +1,42 @@
+body {
+    background-image: url('background.jpeg');
+    height: 150vh;
+    
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-start;
+    color: aliceblue;
+    height: 90vh;
+    
+}
+
+h1 {
+    font-size: 100px;
+}
+
+
+button {
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.positioned {
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    
+    margin-left: 950px;
+    padding-top: 590px;
+    
+}

@@ -1,0 +1,71 @@
+body {
+    border: 5px solid rgb(92, 75, 193);
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.para {
+    font-size: 30px;
+}
+
+.image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        height: 400px;
+        width: 550px;
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 450px;
+    width: 370px;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 400px;
+    width: 590px;
+}
+
+
+.slideshow-container {
+
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+
+.img {
+    width: 630px;
+    height: 450px;
+    object-fit: cover;
+}
+
+
